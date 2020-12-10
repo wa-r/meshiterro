@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% @post_images.each do |post_image| %>
 <div>
   <%= link_to post_image_path(post_image.id) do %>
@@ -11,3 +12,6 @@
 </div>
 <% end %>
 <%= paginate @post_images %>
+=======
+<%= render 'post_images/list', post_images: @post_images %>
+>>>>>>> origin/master

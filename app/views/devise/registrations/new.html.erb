@@ -2,10 +2,16 @@
 
 <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
+<<<<<<< HEAD
 
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name, autofocus: true  %>
+=======
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name, autofocus: true %>
+>>>>>>> origin/master
   </div>
 
   <div class="field">
